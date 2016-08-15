@@ -13,5 +13,6 @@ Start a dev server at `localhost:4000`:
 ```
 $ npm install -g hexo-cli
 $ npm install
+$ npm uninstall hexo-generator-index
 $ hexo server
 ```
