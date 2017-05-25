@@ -68,7 +68,7 @@ Sends an email with the generated PDF attached.
 {% set settings = {
    toEmail: 'someone@website.com',
    subject: "Here's your PDF!",
-   body: "Hi {{ userName }}! Your PDF is attached."
+   body: "Hi {{ userName }}! Your PDF is attached. You can also download it here: {{ fileUrl }}"
 } %}
  
 {% set pdf = printmaker.pdfFromTemplate('_pdf/_myTemplate', someVars, someSettings) %}
