@@ -41,5 +41,5 @@ The `pdfFromTemplate()` method accepts three parameters:
 {% set vars = { title: 'Howdy, world!', foo: entry.fooField } %}
 {% set settings = { orientation : 'portrait' } %}
  
-{% set pdfUrl = printmaker.pdfFromTemplate('_pdf/_myTemplate', vars, settings) %}
+{% set pdf = printmaker.pdfFromTemplate('_pdf/_myTemplate', vars, settings) %}
 ```
