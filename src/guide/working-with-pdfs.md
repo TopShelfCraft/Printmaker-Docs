@@ -64,7 +64,7 @@ Sends an email with the generated PDF attached.
 {% set variables = {
    userName : currentUser.friendlyName
 } %}
-
+ 
 {% set settings = {
    toEmail: 'someone@website.com',
    subject: "Here's your PDF!",
@@ -72,6 +72,6 @@ Sends an email with the generated PDF attached.
 } %}
  
 {% set pdf = printmaker.pdfFromTemplate('_pdf/_myTemplate', someVars, someSettings) %}
-
+ 
 {% do pdf.email('YourPDF.pdf', settings, variables %} 
 ```
