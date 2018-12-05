@@ -25,7 +25,8 @@ title: Printmaker Documentation
 	</ul>
 
 	<p class="buttons">
-		<a href="https://straightupcraft.com/craft-plugins/printmaker" class="button">Buy Printmaker @ Straight Up Craft</a>
+		<a href="https://github.com/TopShelfCraft/Printmaker/releases/latest" class="button">Download Printmaker</a>
+		<a href="https://github.com/TopShelfCraft/Printmaker" class="button">View on GitHub</a>
 	</p>
 
 	<ul id="social">
