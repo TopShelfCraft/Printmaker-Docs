@@ -1,0 +1,17 @@
+{
+  "name": "com-topshelfcraft-docs-printmaker",
+  "compatibility_date": "2026-10-21",
+  "assets": {
+    "directory": "./public"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    {
+      "pattern": "printmaker.docs.topshelfcraft.com",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": false
+}
